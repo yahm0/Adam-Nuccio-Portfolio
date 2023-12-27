@@ -1,6 +1,12 @@
 :root {
 /*Declare variables here */
 
+
+body {
+    display: flex;
+
+}
+
 }
 
 header {
@@ -8,13 +14,35 @@ header {
 
 }
 
-body {
+h1,h2,h3,h4,h5,h6 {
 
 
 }
 
-h1,h2,h3,h4,h5,h6 {
+main {
+    flex-wrap: wrap;
 
+}
+
+section {
+    flex-direction: column;
+
+}
+
+img {
+
+
+}
+
+footer {
+
+
+}
+
+.img {
+padding: ;
+border: ;
+margin: ;
 
 }
 
