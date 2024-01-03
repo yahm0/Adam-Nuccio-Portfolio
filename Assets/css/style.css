@@ -1,5 +1,7 @@
 :root {
-/*Declare variables here */
+    --dark: #000000;
+    --light: #fff;
+    --square-border: 50px;
 
 
 body {
@@ -37,6 +39,30 @@ img {
 footer {
 
 
+}
+
+.work {
+    flex: 1;
+    background-color: var(--dark);
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.mainCard {
+
+}
+
+.card {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: var(--square-border);
+    padding: 10px;
+    flex: 0 0 300px;
+    transform: rotate(8deg);
+    box-shadow: 10px 10px 5px var(--dark);
+    margin: 20px;
 }
 
 .img {
