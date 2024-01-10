@@ -2,23 +2,31 @@
     --dark: #000000;
     --light: #fff;
     --grey: #d4d3d3;
-    --teal: #00e9c6;
+    --blue: #4f84b6;
     --square-border: 20px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: var(--grey);
 
 }
 
 body {
-   background-color: var(--grey);
+   background-color: var(--blue);
     
 }
 
 
 header {
     display: block;
-    padding: 40px;
-    border-style: solid;
+    padding: 10px;
     text-align: left;
-    background-color: #00e9c6;
+    background-color: var(--blue);
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/381/988/original/vector-abstract-colorful-dotted-banner-background.jpg");
 }
 
 nav {
@@ -31,6 +39,7 @@ nav {
 }
 
 nav ul li {
+    cursor: pointer;
     display: inline-block;
     padding: 10px;
     margin left: 25px;
@@ -51,7 +60,7 @@ main {
 h1, h2 {
     padding: 10px;
     font-size: 50px;
-    color: var(--dark);
+    color: var(--grey);
 }
 
 h3, h4 {
@@ -75,6 +84,7 @@ h5 {
     color: var(--dark);
     margin: auto;
     text-align: center;
+    color: var(--grey);
 }
 
 p {
@@ -94,20 +104,27 @@ img {
 }
 
 footer {
+    cursor: pointer;
     margin: 40px;
     padding: 40px;
     border-style: solid;
     text-align: center;
-    background-color: #00e9c6;
+    background-color: var(--blue);
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/381/988/original/vector-abstract-colorful-dotted-banner-background.jpg");
+}
+
+footer p {
+    color: var(--grey);
 }
 
 .Topics {
     display: flex;
-    background-color: var(--grey);
+    background-color: var(--blue);
     padding: 10px;
 }
 
 .mainCard {
+    cursor: pointer;
     border-style: solid;
     border-width: 3px;
     border-radius: var(--square-border);
@@ -115,22 +132,25 @@ footer {
     transform: rotate(0deg);
     box-shadow: 10px 10px 5px var(--dark);
     text-align: center;
-    background-color: #00e9c6;
+    background-color: #a0e7dd;
     max-width: 100%;
 }
 
 .card {
+    cursor: pointer;
     display: block;
     padding: 10px;
-    margin: 20px;
+    margin-inline: 20px;
     border-style: solid;
     border-width: 3px;
     border-radius: var(--square-border);
     box-shadow: 10px 10px 5px var(--dark);
-    background-color: var(--teal);  
+    background-color: #a0e7dd;  
     width: 25%;
     
 }
+
+
 
 .card p {
     text-align: center;
@@ -147,6 +167,18 @@ footer {
     object-fit: cover;
     width: 100%;
     height: auto;
+}
+
+#About {
+
+}
+
+#Topics {
+
+}
+
+#Contact {
+
 }
 
 @media screen and () {
